@@ -44,6 +44,7 @@ const Login = () => {
           email.current.value,
           password.current.value
         );
+        console.log(userCredential);
 
         // Update profile
         await updateProfile(auth.currentUser, {
