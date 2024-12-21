@@ -99,7 +99,6 @@ const User = () => {
     },
     td: {
       padding: "10px",
-      textAlign: "left",
       border: "1px solid #ddd",
       textAlign: "center",
       fontSize: "0.9rem",
